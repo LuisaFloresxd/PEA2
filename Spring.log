@@ -1,0 +1,51 @@
+2023-04-06T23:21:09.704-05:00  INFO 16540 --- [restartedMain] Pea2.LuisaFlo.Pea2Application            : Starting Pea2Application using Java 17.0.6 with PID 16540 (D:\SPRINT\Ejercicios\Pea2\target\classes started by ANDRES in D:\SPRINT\Ejercicios\Pea2)
+2023-04-06T23:21:09.706-05:00  INFO 16540 --- [restartedMain] Pea2.LuisaFlo.Pea2Application            : No active profile set, falling back to 1 default profile: "default"
+2023-04-06T23:21:09.754-05:00  INFO 16540 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-06T23:21:09.754-05:00  INFO 16540 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-06T23:21:10.487-05:00  INFO 16540 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-06T23:21:10.522-05:00  INFO 16540 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 0 JPA repository interfaces.
+2023-04-06T23:21:11.290-05:00  INFO 16540 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-06T23:21:11.300-05:00  INFO 16540 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-06T23:21:11.300-05:00  INFO 16540 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-06T23:21:11.386-05:00  INFO 16540 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-06T23:21:11.386-05:00  INFO 16540 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1631 ms
+2023-04-06T23:21:11.559-05:00  INFO 16540 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-06T23:21:11.617-05:00  INFO 16540 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-06T23:21:11.915-05:00  INFO 16540 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-06T23:21:13.459-05:00  INFO 16540 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: f93fe406-9a00-4971-8fef-a5be1836bc64
+2023-04-06T23:21:13.463-05:00  INFO 16540 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-06T23:21:13.498-05:00  INFO 16540 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2023-04-06T23:21:14.049-05:00  INFO 16540 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-06T23:21:14.060-05:00  INFO 16540 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-06T23:21:14.149-05:00  WARN 16540 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-06T23:21:14.370-05:00  WARN 16540 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-04-06T23:21:14.584-05:00  INFO 16540 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-06T23:21:14.642-05:00  INFO 16540 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-06T23:21:14.657-05:00  INFO 16540 --- [restartedMain] Pea2.LuisaFlo.Pea2Application            : Started Pea2Application in 5.484 seconds (process running for 6.691)
+2023-04-06T23:23:33.079-05:00  INFO 16540 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-04-06T23:23:33.104-05:00  INFO 16540 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-06T23:23:33.156-05:00  INFO 16540 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-06T23:23:33.161-05:00  INFO 16540 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-06T23:23:33.178-05:00  INFO 16540 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-06T23:23:33.282-05:00  INFO 16540 --- [restartedMain] Pea2.LuisaFlo.Pea2Application            : Starting Pea2Application using Java 17.0.6 with PID 16540 (D:\SPRINT\Ejercicios\Pea2\target\classes started by ANDRES in D:\SPRINT\Ejercicios\Pea2)
+2023-04-06T23:23:33.283-05:00  INFO 16540 --- [restartedMain] Pea2.LuisaFlo.Pea2Application            : No active profile set, falling back to 1 default profile: "default"
+2023-04-06T23:23:33.675-05:00  INFO 16540 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-06T23:23:33.677-05:00  INFO 16540 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2023-04-06T23:23:33.781-05:00  INFO 16540 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-06T23:23:33.782-05:00  INFO 16540 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-06T23:23:33.783-05:00  INFO 16540 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-06T23:23:33.837-05:00  INFO 16540 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-06T23:23:33.837-05:00  INFO 16540 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 551 ms
+2023-04-06T23:23:33.880-05:00  INFO 16540 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-06T23:23:33.889-05:00  INFO 16540 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-04-06T23:23:34.983-05:00  INFO 16540 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection ConnectionID:11 ClientConnectionId: b2b018f2-a927-43ef-82b4-36f7303bb0bb
+2023-04-06T23:23:34.984-05:00  INFO 16540 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-04-06T23:23:34.986-05:00  INFO 16540 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2023-04-06T23:23:35.292-05:00  INFO 16540 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-06T23:23:35.293-05:00  INFO 16540 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-06T23:23:35.386-05:00  WARN 16540 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-06T23:23:35.580-05:00  WARN 16540 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-04-06T23:23:36.032-05:00  INFO 16540 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-06T23:23:36.113-05:00  INFO 16540 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-06T23:23:36.126-05:00  INFO 16540 --- [restartedMain] Pea2.LuisaFlo.Pea2Application            : Started Pea2Application in 2.891 seconds (process running for 148.16)
+2023-04-06T23:23:36.131-05:00  INFO 16540 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
